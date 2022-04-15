@@ -5,7 +5,7 @@ export default function ContentInfo({MernData}) {
   <>
     <div className=' xl:flex xl:flex-col mt-4 xl:items-center'>  
       <div className='xl:w-[50vw]' >
-        <h2 className='mx-3 my-3 font-archivo text-xl xl:text-2xl text-zinc-800'>The four key Technologies :</h2>
+        <h2 className='mx-3 my-3 font-archivo text-xl xl:text-3xl text-zinc-800'>The four key Technologies :</h2>
 
                 <ul className='font-workSans text-sm xl:text-base my-2 mx-5 p-2 list-disc'>
                   <li>
