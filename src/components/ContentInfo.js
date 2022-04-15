@@ -32,7 +32,7 @@ export default function ContentInfo({MernData}) {
                 <div>
                     <p className='font-workSans mx-2 text-sm xl:text-base p-1 w-[95vw] xl:w-fit '>{CurElm.description}</p>
                     <button className='mx-3 text-xs xl:text-sm underline decoration-green-600 text-green-600 rounded-md font-workSans'>
-                    Read More
+                    <a href={CurElm.link} target="_blank" rel="noreferrer">Read more</a>
                     </button>
                 </div>
             </div>
