@@ -4,7 +4,7 @@ export default function ContentInfo({MernData}) {
   return (
   <>
     <div className=' xl:flex xl:flex-col mx-1 mt-4 xl:items-center sm:flex sm:flex-col sm:items-center '>  
-      <div className='xl:w-[50vw] lg:w-[60vw]  sm:w-[80vw]' >
+      <div className='xl:w-[70vw] lg:w-[70vw] sm:w-[80vw]' >
         <h2 className='mx-3 xl:mt-3 font-archivo text-xl xl:text-3xl text-zinc-800'>Technologies used :</h2>
 
                 <ul className='font-workSans text-sm xl:text-base mx-5 p-2 list-disc'>
@@ -25,7 +25,7 @@ export default function ContentInfo({MernData}) {
       
       {MernData.map((CurElm)=>{
         return (
-            <div className='mb-3 xl:w-[50vw] lg:w-[60vw] sm:w-[80vw]'>
+            <div className='mb-3 xl:w-[70vw] lg:w-[70vw] sm:w-[80vw]'>
                 <div className='mt-3'>
                 <h2 className='mx-3 font-archivo text-xl text-zinc-800 xl:text-2xl'>{CurElm.Tech}</h2>
                 </div>
@@ -38,7 +38,7 @@ export default function ContentInfo({MernData}) {
             </div>
         )
     })}
-          <div className='xl:w-[50vw] lg:w-[60vw] sm:w-[80vw]'>
+          <div className='xl:w-[70vw] lg:w-[70vw] sm:w-[80vw]'>
             <h2 className='mx-3 font-archivo text-xl text-zinc-800 xl:text-2xl'>Why MERN stack?</h2>
               <p className='font-workSans mx-2 my-2 xl:text-base p-1 w-[95vw] xl:w-fit sm:w-fit'>
               There are many good reasons to use the MERN Stack. For example, it allows the creation of a 3-tier architecture that includes frontend, backend, and database using JavaScript and JSON. <br />
